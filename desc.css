@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+img{
+    height: 350px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 570px;
+    margin: 0 auto;
+}
+
+.first-part,
+.second-part,
+.third-part{
+    padding: 100px 0;
+}
+
+
+/* Typography */
+
+h1 span,
+h2 span{
+    font-weight: 900;
+    color: #99d930;
+}
+
+h1, 
+h2{
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 42px;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4; 
+    padding: 20px 0;
+}
+
+h3{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.small-desc{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h1 span{
+    font-size: 80px;
+}
+
+h2 span{
+    font-size: 60px;
+    display: block;
+}
+
+a{
+    color: #99d930;
+}
+
+a:hover{
+    color: #131313;
+}
+
+.first-part,
+.third-part{
+    background-color: #252525;
+    color: #fff;
+}
+
+.second-part{
+    background-color: #fff;
+    color: #131313;
+}
+
+.button{
+    background-color: #99d930;
+    color: #252525;
+    padding: 17px 30px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.button:hover,
+.button:active{
+    background-color: #252525;
+    color: #fff;
+}
+
+article .button:hover,
+article .button:active{
+    background-color: #fff;
+    color: #252525;
+}
+
